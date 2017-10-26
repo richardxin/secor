@@ -400,6 +400,10 @@ public class SecorConfig {
     public String getMessageSplitFieldName() {
         return getString("message.split.field.name");
     }
+    
+    public String getMessagePartitionCustomFieldName() {
+        return getString("message.partition.customfield.name");
+    }
 
     public int getFinalizerLookbackPeriods() {
         return getInt("secor.finalizer.lookback.periods", 10);
